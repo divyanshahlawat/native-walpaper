@@ -1,9 +1,9 @@
 import { Text, View } from "react-native";
 
-export default function forYou() {
+export default function Library() {
   return (
     <View>
-      <Text>for you page</Text>
+      <Text>Library</Text>
     </View>
   );
 }
