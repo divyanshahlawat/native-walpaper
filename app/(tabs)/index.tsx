@@ -1,5 +1,6 @@
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import { Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -15,9 +16,9 @@ export default function ForYou() {
 
 function HomeScreen() {
   return (
-    <View>
+    <SafeAreaView>
       <Text>Home Screen</Text>
-    </View>
+    </SafeAreaView>
   );
 }
 
